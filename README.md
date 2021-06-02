@@ -1,4 +1,4 @@
-# Suggestify ( Our HACKGT 2020 Project )
+# Suggestify ( Our HACKGT 2020 Project ** Currently still in Progress **)
 
 ![Suggestify ! ](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/252/484/datas/medium.jpg)
 
