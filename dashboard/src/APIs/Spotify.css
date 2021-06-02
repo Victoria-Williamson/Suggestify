@@ -1,0 +1,22 @@
+#spotify
+{
+    position: absolute;
+    bottom: 10px;
+    height: 100%;
+    width: 100%;
+}
+.track {
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#track1{
+    position: relative;
+}
+#track2{
+    position: relative;
+}
+#track3{
+    position: relative;
+}

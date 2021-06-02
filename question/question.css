@@ -1,0 +1,61 @@
+body {
+    background: rgb(252,174,114);
+background: linear-gradient(90deg, rgba(252,174,114,1) 0%, rgba(235,138,133,1) 35%, rgba(192,117,148,1) 100%);
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 4px 0px;
+    border: 1px solid #EB8A85;
+    display: inline-block;
+    color: #EB8A85;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+
+label.radio input:checked+span {
+    border-color: #EB8A85;
+    background-color: #EB8A85;
+    color: #fff;
+}
+
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.btn:active {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.text-question{
+    color:#EB8A85!important;
+
+}
+
+.bg-purp{
+    background-color:#515B7B;
+}
+
+.text-white{
+    color:#fff;
+}
+
+.btn-next{
+    color:#fff!important;
+    background-color:#515B7B!important;
+    border-color:#515B7B!important}

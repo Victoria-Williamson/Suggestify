@@ -1,0 +1,11 @@
+export const firebaseAPI = "AIzaSyCe0brDdIFbvs2KsSZ-wMVZMTn1y9rk3Ts";
+export const authDomain =  "beepboop-295b5.firebaseapp.com";
+export const databaseURL ="https://beepboop-295b5.firebaseio.com";
+export const projectId = "beepboop-295b5";
+export const storageBucket = "beepboop-295b5.appspot.com";
+export const messagingSenderId ="484476487045";
+export const appId = "1:484476487045:web:c006112e8aed1310db30ec";
+export const measurementId = "G-ZNWLTTVP5P";
+export const spotifyID = "c49b3544c9094b928aada81d21c77a75";
+export const spotifySecret = "1b888875782246daac1cb49f8c1e493d";
+export const youtubeKey = "AIzaSyBhW5fk2vr41MAkP18aMuktUc_BQQ0ibTE";

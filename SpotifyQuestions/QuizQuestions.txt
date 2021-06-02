@@ -1,0 +1,103 @@
+Task: Figure out how to keep track of people's preference and apply the Spotify machine learning API to suggest things
+
+- Point system?
+- 
+
+Variables to keep track of: 
+
+public class Genre
+{
+    double points = 0; 
+    float multiplier;
+    
+}
+
+
+
+Questions:
+// Should be able to choose more than one selection?
+
+Straight to the point
+- What kind of music do you usually listen to?
+    a. Country 
+    b. Classical
+    c. Rock & Roll
+    d. Jazz/Blues
+    e. Pop
+    f. Rap
+    
+    g. Whatever's on the radio
+- What activities do you usually do when you listen to music?
+    a. Study
+    b. Active tasks e.g. 
+    c. Exercise
+    d. 
+- What reasons do you usually have to listen to music?
+    a. To relax
+    b. To get H Y P E D
+    c. To jam out
+- What volume do you usually listen to music at?
+    a. ALL THE WAY UP
+    b. Nice and quiet
+    c. Somewhere in between
+- Where is the best place to listen to your music?
+    a. At the gym
+    b. At home
+    c. At a party
+-  Do you usually listen solo or with a group? // this is a bit of a stretch tbh
+- Please choose an instrument of preference.
+    a. Guitar
+    b. Piano
+    c. Drums
+    d. Violin
+    e. Vocal Chords // maybe not an instrument
+- What is the most important thing for you when it comes to choosing music?
+    a. It's all about that bass.
+    b. The background music
+    c. The melody/tune
+    d. The lyrics
+    e. The voice of the singer
+- How heavy do you like your bass?
+    a. Nonexistent
+    b. Shaking my very core
+    c. Somewhere in the middle
+- Which song do you identify with the most?
+    a. Party in the USA 
+    b. 
+Do you prefer upbeat music or low-key music?
+Choose the intensity of the music you usually listen to.
+    - Intese
+    - Quiet and lowkey
+Do you usually sing along when listening to music?
+    - Yes
+    - No
+What best describes your music tastes?
+    - Eclectic and varied
+    - Top 50's
+    - I tend to stick to a few select genres
+    - 
+
+
+Switch Statement Menu
+
+switch(questionAnswer)
+{
+    case a:
+    {
+        
+    }
+    break;
+
+    case b;
+    {
+
+    }
+    break;
+
+    case c:
+    break;
+
+}
+
+
+

@@ -1,0 +1,85 @@
+body {
+    background: rgb(252,174,114);
+background: linear-gradient(90deg, rgba(252,174,114,1) 0%, rgba(235,138,133,1) 35%, rgba(192,117,148,1) 100%);
+}
+
+
+.but input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+#Pop{
+    background-color: pink;
+}
+.opt span {
+    padding: 4px 0px;
+    border: 1px solid #EB8A85!important;
+    display: inline-block;
+    color: #EB8A85!important;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+
+.opt input:checked+span {
+    border-color: #EB8A85!important;
+    background-color: #EB8A85!important;
+    color: #fff;
+}
+
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.btn:active {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.text-question{
+    color:#EB8A85!important;
+
+}
+#switch{
+    position: relative;
+    height:50px;
+    background-color: transparent;
+    border-color: white;
+}
+#Spotify{
+    display: none;
+}
+.bg-purp{
+    background-color:#515B7B;
+}
+.qheight{
+    height:400px!important;
+ }
+
+.text-white{
+    color:#fff;
+}
+
+.btn-next{
+    color:#fff!important;
+    background-color:#515B7B!important;
+    border-color:#515B7B!important}
+
+ .btn-opt{
+    color:#fff!important;
+    background-color:#EB8A85!important;
+    border-color:#EB8A85!important}
+
+.btn-opt:visited{
+    background-color:#515B7B!important;}
+
+    .btn-opt:focus{
+        background-color:#515B7B!important;}
+
+.btn-opt:active{
+    background-color:#515B7B!important;}

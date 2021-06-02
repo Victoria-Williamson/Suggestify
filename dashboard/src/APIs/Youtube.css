@@ -1,0 +1,11 @@
+#video {
+    position: absolute;
+    height: 390px;
+    width: 640px;
+    bottom: 10px;
+}
+.changeVideo {
+    position: relative;
+    top:20px;
+    left: 100px;
+}

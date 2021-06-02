@@ -1,0 +1,178 @@
+html
+{
+	size: 100%;
+}
+#loginDiv {
+	overflow: hidden;
+}
+body
+{
+	background: linear-gradient(rgba(47,72,88,1) 11%, rgba(81,91,123,1) 21%, rgba(135,104,146,1) 31%, rgba(192,117,148,1) 49%, rgba(235,138,133,1) 71%, rgba(252,174,114,1) 86%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#movingClouds {
+	position: absolute;
+	top:400px;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	
+	background-image:		
+		url('./Cloud2.svg');
+	
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		2500px,
+		800px,
+		500px 200px,
+		1000px,
+		400px 260px;
+	animation:  70s ease-in para infinite alternate;
+	animation-iteration-count: infinite;
+	}
+@keyframes para {
+	from
+	{
+		transform: translate(0px);
+	}
+	to
+	{
+		transform: translateX(5000px);
+	}
+}
+
+@keyframes para2 
+{
+	from
+	{
+		transform: translate(500px);
+	}
+	to
+	{
+		transform: translateX(0px);
+	}
+
+}
+
+.login
+{
+	transform: translate(-50%, -50%);
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	width: 358px;
+	height: 121px;
+	z-index: 3;
+
+	font-family: 'Roboto';
+	font-size: 50px;
+	color: white;
+	
+	background-color: transparent;
+	border: 3px solid #FFFFFF;
+	filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.4));
+	border-radius: 21px;
+
+	transition-duration: .7s;
+	overflow: hidden;
+	outline: none;
+	
+}
+
+.login:hover
+{
+	background-color: #876892;
+	padding-right: 25px;
+}
+
+.login:hover:after 
+{
+	content: '\00bb';
+	position: absolute;
+	transition: .5s;
+	padding-left: 10px;
+}
+
+.logo 
+{
+	position: absolute;
+	overflow: hidden;
+}
+
+
+#logo1
+{
+	height: 90%;
+	left: 800px;
+}
+
+#logo2
+{
+	height: 120%;
+	left: 30px;
+	z-index: 2;
+	transform: scaleX(-1);
+}
+#cloud2{
+	position: absolute;
+	margin-top: 400px;
+	left:0px;
+	z-index: -1;
+	overflow: visible;
+	
+	animation:  40s ease-in para2 infinite alternate;
+	animation-iteration-count: infinite;
+}
+#cloud1
+{
+	
+	position: absolute;
+	margin-top: 400px;
+	overflow: visible;
+}
+
+
+#stars
+{
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: rgb(245, 225, 210);
+
+	animation-iteration-count: infinite;
+}
+
+#star1
+{
+	top: 100px;
+	left: 600px;
+
+	animation-name: twinkle-1;
+	animation-duration: 1s;
+}
+
+@keyframes twinkle-1
+{
+	30% 
+	{
+		transform: scale(.5);
+		opacity: .5;
+	}
+}
+@keyframes twinkle-2
+{
+	50% 
+	{
+		transform: scale(.5);
+		opacity: .5;
+	}
+}
+
+
