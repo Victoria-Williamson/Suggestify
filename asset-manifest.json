@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Suggestify/static/css/main.f424b1a1.chunk.css",
+    "main.js": "/Suggestify/static/js/main.cf58e04b.chunk.js",
+    "main.js.map": "/Suggestify/static/js/main.cf58e04b.chunk.js.map",
+    "runtime-main.js": "/Suggestify/static/js/runtime-main.d1eb8083.js",
+    "runtime-main.js.map": "/Suggestify/static/js/runtime-main.d1eb8083.js.map",
+    "static/css/2.cff7bfc9.chunk.css": "/Suggestify/static/css/2.cff7bfc9.chunk.css",
+    "static/js/2.c4569a2b.chunk.js": "/Suggestify/static/js/2.c4569a2b.chunk.js",
+    "static/js/2.c4569a2b.chunk.js.map": "/Suggestify/static/js/2.c4569a2b.chunk.js.map",
+    "index.html": "/Suggestify/index.html",
+    "precache-manifest.e8eb8c6b403b3e4c81b3fcb10bb134dc.js": "/Suggestify/precache-manifest.e8eb8c6b403b3e4c81b3fcb10bb134dc.js",
+    "service-worker.js": "/Suggestify/service-worker.js",
+    "static/css/2.cff7bfc9.chunk.css.map": "/Suggestify/static/css/2.cff7bfc9.chunk.css.map",
+    "static/css/main.f424b1a1.chunk.css.map": "/Suggestify/static/css/main.f424b1a1.chunk.css.map",
+    "static/js/2.c4569a2b.chunk.js.LICENSE.txt": "/Suggestify/static/js/2.c4569a2b.chunk.js.LICENSE.txt",
+    "static/media/login.css": "/Suggestify/static/media/Cloud2.5f3682df.svg",
+    "static/media/Clouds.cb6f617b.svg": "/Suggestify/static/media/Clouds.cb6f617b.svg",
+    "static/media/logo.8fa2e680.svg": "/Suggestify/static/media/logo.8fa2e680.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1eb8083.js",
+    "static/css/2.cff7bfc9.chunk.css",
+    "static/js/2.c4569a2b.chunk.js",
+    "static/css/main.f424b1a1.chunk.css",
+    "static/js/main.cf58e04b.chunk.js"
+  ]
+}
